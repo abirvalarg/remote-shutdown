@@ -3,8 +3,14 @@
     <head>
         <meta charset="utf-8">
         <title>shutdowninator</title>
+        <script src="/static/main.js" defer></script>
     </head>
     <body>
-        <button>Shut down</button>
+        <form id="tokenForm">
+            <label for="tokenField">token:</label>
+            <input type="text" id="tokenField" name="token">
+        </form>
+        <button id="shutdownBtn">Shut down</button>
+        <p id="msgBox">messages here</p>
     </body>
 </html>
