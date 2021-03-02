@@ -6,11 +6,11 @@
         <script src="/static/main.js" defer></script>
     </head>
     <body>
-        <form id="tokenForm">
+        <form id="tokenForm" action="/" method="post">
             <label for="tokenField">token:</label>
-            <input type="text" id="tokenField" name="token">
+            <input type="password" id="tokenField" name="token">
         </form>
         <button id="shutdownBtn">Shut down</button>
-        <p id="msgBox">messages here</p>
+        <p id="msgBox"></p>
     </body>
 </html>
